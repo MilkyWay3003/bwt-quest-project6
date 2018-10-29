@@ -1,0 +1,8 @@
+{
+    "/js/swagger-ui.js": "/js/swagger-ui.js",
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/swagger-ui-standalone-preset.js": "/js/swagger-ui-standalone-preset.js",
+    "/js/swagger-ui-bundle.js": "/js/swagger-ui-bundle.js",
+    "/js/swagger.js": "/js/swagger.js"
+}

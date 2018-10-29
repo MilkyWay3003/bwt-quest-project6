@@ -1,0 +1,57 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Booking API",
+        "contact": {
+            "name": "",
+            "url": ""
+        },
+        "version": "1.0"
+    },
+    "host": "public",
+    "basePath": "",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/api/hotels": {
+            "get": {
+                "tags": [
+                    "hotels"
+                ],
+                "description": "Returns list hotels",
+                "operationId": "api.hotels.index",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List hotels"
+                    },
+                    "401": {
+                        "description": "Unauthorized action."
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Error": {
+            "required": [
+                "code",
+                "message"
+            ],
+            "properties": {
+                "code": {
+                    "description": "Class ApiController",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "description": "Class ApiController",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
